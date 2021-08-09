@@ -1,0 +1,43 @@
+/* style="width: 440px; height: 367px; border-radius: 30px; box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); */
+div .card-body{
+    
+}
+
+div .card-login{
+    width: 440px;
+    height: 367px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+}
+
+div .card-register{
+    width: 440px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700 !important;
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+}
+
+h6{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    color: #767676;
+    font-size: 20px !important;
+}
+
+div a{
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+}
+
+div label{
+    font-family: Raleway, sans-serif;
+}
