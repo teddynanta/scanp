@@ -1,3 +1,14 @@
+<?php 
+
+session_start();
+if (!isset($_SESSION['login'])) {
+    echo "<script>alert('Anda belum login!')</script>";
+    echo "<meta http-equiv ='refresh' content='0;
+			url =index.php'>";
+            exit();
+}
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -19,13 +30,13 @@
         <div class="card card-login mx-auto">
             <div class="card-body col-md-9 mx-auto my-5 py-5">
                 <div class="mb-4 d-grid gap-2">
-                    <a href="editacc.html" class="btn btn-outline-primary">Edit Account</a>
+                    <a href="editacc.php" class="btn btn-outline-primary">Edit Account</a>
                 </div>
                 <div class="mb-5 d-grid gap-2">
-                    <a href="storeddata.html" class="btn btn-outline-primary">Stored Data</a>
+                    <a href="storeddata.php" class="btn btn-outline-primary">Stored Data</a>
                 </div>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-danger d-block mx-auto mb-3">Logout</button>
+                    <a href="logout.php" class="btn btn-danger mx-auto mb-3">Logout</a>
                 </div>
             </div>
         </div>
